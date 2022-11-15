@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+:root{
+    --bg-color: #0C0E10;
+	--text-color: #fff;
+	--main-color: #FF550F;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+	background: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+	height: 100vh;
+}
+
+.BoxReg {
+  max-width: 350px;
+  width: 100%;
+  max-height: 650px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #101010;
+  padding: 6px;
+  max-width: 350px;
+  width: 100%;
+  height: 450px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 black;
+  margin: 0 auto;
+
+}
+
+form {
+  position: absolute;
+  margin-top: 80px;
+  transition: .5s;
+  width: 300px;
+  height: 400px;
+	color: white;
+}
+
+.buttonsForm {
+  margin-top: 40px;
+  position: absolute;
+  border-radius: 30px;
+  box-shadow: 0 0 7px 0 var(--main-color);
+	color: white;
+    left:20%;
+}
+
+.buttonsForm button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding: 10px 29px;
+}
+
+.btnColor {
+  position: absolute;
+  width: 108px;
+  height: 100%;
+  background: linear-gradient(to right, var(--main-color), #f76e2a);
+  border-radius: 30px;
+  transition: .3s;
+	
+}
+
+input[type="text"], input[type="password"] {
+  border: none;
+  margin-top: 40px;
+  border-radius: 60px;
+  padding: 8px 0 8px 35px;
+  outline: none;
+  width: 100%;
+	background-color: var(--bg-color);
+	color: white;
+	box-shadow: 0 0 3px 0 var(--main-color);
+}
+
+.submit {
+  background: var(--main-color);
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 15px;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #f76e2a;
+}
+
+
+.divCheck {
+  margin: 10px 0 0 5px;
+  width: 80%;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#signin {
+  left: 25px;
+}
+
+#signup {
+  left: 450px;
+
+}
+
+i {
+  position: absolute;
+  left: 0;
+  padding: 10px 10px;
+}
+
+.iEmail {
+  top: 40px;
+}
+
+.iPassword {
+  top: 114px;
+}
+
+.iPassword2 {
+  top: 190px;
+}
+
+.isun {
+	margin-left: 50px;
+	margin-top: -5px;
+}
+
+.imoon {
+	margin-left: -35px;
+	margin-top: -5px;
+
+}
+
+#btnSignin, #btnSignup {
+	color: white;	
+}
+
+input[type="checkbox"] {
+	width: 50px;
+	height: 25px;
+	appearance: none;
+	background-color: #DAE2DF;
+	border-radius: 50px;
+	box-shadow: inset 0px 0px 16px 1px rgba(0, 0, 0, 0.24);
+	cursor: pointer;
+	transition: .4s;
+	position: relative;
+	
+}
+
+input:checked[type="checkbox"] {
+	background-color: var(--main-color);
+}
+
+input[type="checkbox"]:before {
+	content: '';
+	width: 25px;
+	height: 25px;
+	background-color: #EDF3F1;
+	border-radius: 50px;
+	position: absolute;
+	box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+	transform: scale(1.1);
+	top: 0;
+	left: 0;
+	transition: .4s;
+}
+
+input:checked[type="checkbox"]:before {
+	left: 25px;
+}
+
+.LogoChapa{
+  display: flex;
+  z-index: 100000;
+  margin: 0 auto;
+  max-width: 200px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: column;
+
+}
+.logo i{
+	color: var(--main-color);
+	font-size: 28px;
+	margin-right: 0px;
+
+    position: absolute;
+  
+
+}
+.logo span{
+	color: var(--main-color);
+	font-size: 1.7rem;
+	font-weight: 600;
+
+}
+
+span {
+    flex: none;
+    align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+#signX {
+  color: var(--text-color);
+}
+
+
+

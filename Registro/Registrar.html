@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="Stylelogin.css">
+  <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+
+  <div class="BoxReg">
+	    <!--Logo da Chapa-->
+        <div class="LogoChapa">
+          <div class="img-logo"><a href="../index.html" class="logo"><img src="../imgs/LogoChapaMenor.png" class="logochapa" alt="image" height="100" width="120"><br></div>
+              <div class="span-name"><span>CHAPA FOX</span></div>
+            </a>
+        </div>
+        <!--Fim Logo da Chapa-->
+    
+<!--Div Container-->
+  <div class="container">
+
+
+<!--Botao Sign in/sign up-->
+    <div class="buttonsForm">
+      <div class="btnColor"></div>
+      <button id="btnSignin">Sign in</button>
+      <button id="btnSignup">Sign up</button>
+    </div>
+<!--Fim do Botao Sign in/sign up-->
+	  
+<!--Formulario Sign In-->
+    <form action="../Area-do-aluno/aluno.html" id="signin">
+		
+      <input type="text" placeholder="Email"  />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" placeholder="Password"  />
+      <i class="fas fa-lock iPassword"></i>
+
+      <div class="divCheck">
+        <input type="checkbox" />
+        <span>Remember Password</span>
+      </div>
+      <button class="submit" type="submit">Sign in</button>
+    </form>
+<!--Fim do Formulario Sign In-->
+
+<!--Formulario Sign Up-->
+    <form id="signup">
+      <input type="text" placeholder="Email" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" placeholder="Password" required />
+      <i class="fas fa-lock iPassword"></i>
+      <input type="password" placeholder="Password" required />
+      <i class="fas fa-lock iPassword2"></i>
+      <div class="divCheck">
+        <input type="checkbox" required />
+        <span>Remember Password</span>
+      </div>
+      <button class="submit" type="submit"><a href="../Area-do-aluno/aluno.html" id="signX">Sign up</a></button>
+    </form>
+<!--Formulario Sign Up-->
+
+  </div>
+  <!--Fim da Div Container-->
+  </div>
+
+	
+  <script src="script.js"></script>
+	
+</body>
+</html>
