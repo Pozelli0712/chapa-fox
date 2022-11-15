@@ -32,6 +32,9 @@ header{
   background-color: #10101040;
     backdrop-filter: blur(5px);
 }
+main {
+	padding-top: 128px;
+}
 .logo{
 	display: flex;
 	align-items: center;
@@ -160,7 +163,7 @@ header{
 	.title {
 		width: 400px;
 		height: 200px;
-		margin: 20% auto;
+		margin: 0 auto;
 		margin-bottom: 10px;
 		color: var(--text-color);
 		text-align: center;
@@ -309,7 +312,7 @@ background-color: var(--main-color);
 	width: 100%;
 	max-width: 400px;
 	height: 200px;
-	margin: 10% auto;
+	margin: 0 auto;
 	margin-bottom: 10px;
 	color: var(--text-color);
 	text-align: center;

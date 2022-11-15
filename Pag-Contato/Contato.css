@@ -29,7 +29,10 @@ header{
 	padding: 10px 12%;
 	transition: all .50s ease;
   background-color: #10101040;
-    backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+main {
+	padding-top: 128px;
 }
 .logo{
 	display: flex;
