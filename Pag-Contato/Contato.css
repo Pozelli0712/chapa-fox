@@ -12,7 +12,8 @@
 	--main-color: #FF550F;
 }
 body{
-	min-height: 100vh;
+	max-height: 100vh;
+	max-width: 100vw;
 	background: var(--bg-color);
 	color: var(--text-color);
 }
@@ -151,4 +152,60 @@ main {
 #CHAPA {
     flex: none;
  
+}
+
+/* Icons */
+.social-icons 
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+	bottom: 50%;
+}
+.social-icons li
+{
+    margin: 0 10px;
+}
+.social-icons li a 
+{
+    font-size: 35px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--text-color);
+    position: relative;
+    transition: 0.5s ease;
+}
+/* Color and animation */
+.social-icons li a:hover {
+    background-image: linear-gradient(340deg, var(--main-color), #f76e2a);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 60px;
+}
+.social-icons li a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: linear-gradient(340deg, var(--main-color), #f76e2a);
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+	box-shadow: 5px 0 0 0 black;
+}
+.social-icons li a:hover::before {
+    transform: scale(0);
+}
+
+.Redes-Sociais {
+	margin: 0 auto;
+
 }
