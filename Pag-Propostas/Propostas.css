@@ -158,6 +158,7 @@ main {
 .card{
     position: relative;
     border-radius: 50px;
+	
   }
   @media (max-width: 680px){
 	.title {
