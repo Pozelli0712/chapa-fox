@@ -192,6 +192,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	font-size: 15px;
   }
 
 }
