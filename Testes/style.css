@@ -1,0 +1,46 @@
+:root {
+    --CorPrimaria: red;
+    --CorSecundaria: black;
+}
+
+body {
+    background-color: var(--CorSecundaria);
+}
+
+*{
+    height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: var(--CorPrimaria);
+    border-radius: 0 0 10px 10px;
+}
+
+.Menu {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    text-align: center
+}
+
+h1 {
+    color: var(--CorSecundaria);
+    text-align: center;
+}
+
+.Menu-hamburguer {
+    font-size: 30px;
+    text-align: left;
+    color: var(--CorSecundaria);
+    width: 35px;
+    height: 35px;
+}
