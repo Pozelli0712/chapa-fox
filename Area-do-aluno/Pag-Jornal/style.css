@@ -135,3 +135,44 @@ h1{
   color:#fff;
   z-index: 10000000000000000000;
 }
+
+/*---Parte do Jornal---*/
+.Back-Jornal {
+  margin-top: ;
+  background: var(--main-color);
+  margin: 0 auto;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: 10px #0C0E10;
+}
+
+.Postar-Video {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.INPUT {
+  justify-items: end;
+}
+
+.forms {
+  margin: 0 auto;
+}
+
+input {
+  background: #FF550F;
+  border: solid 3px var(--bg-color);
+  border-radius: 15px;
+}
+
+.LinhaForms {
+  height: 16px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.send {
+  height: 25px;
+  width: 70px;
+}

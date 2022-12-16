@@ -422,3 +422,11 @@ background-color: var(--main-color);
     font-size: 1.1rem;
   } 
 }
+
+.Novidades {
+  margin: 0 auto;
+  height: 200px;
+  width: 400px;
+  border: solid 3px var(--main-color);
+  border-radius: 15px;
+}
